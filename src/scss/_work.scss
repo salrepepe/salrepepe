@@ -1,0 +1,72 @@
+.work {
+  padding-top: 180px;
+
+  &__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #4985ff;
+    margin: 70px 0 100px 70px;
+  }
+
+  .wrapper {
+    width: 316px;
+    margin: 15px 15px 0 0;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: #821c1c;
+    transition: all 0.2s linear;
+    &:hover {
+      box-shadow: 0 0 25px 0 #821c1c;
+      
+    }
+     &:nth-of-type(2) {
+      background: #2b3580;
+      &:hover {
+        box-shadow: 0 0 25px 0 #2b3580;
+      }
+    }
+    &:nth-of-type(3) {
+      background: #bbb60a;
+
+      &:hover {
+        box-shadow: 0 0 25px 0 #bbb60a;
+      }
+    }
+    &:nth-of-type(4) {
+      background-color: #5588ad;
+
+      &:hover {
+        box-shadow: 0 0 25px 0 #5588ad;
+      }
+    }
+    &:nth-of-type(5) {
+      background: #216c81;
+
+      &:hover {
+        box-shadow: 0 0 25px 0 #216c81;
+      }
+    }
+    &:nth-of-type(6) {
+      background: #3a1e5c;
+
+      &:hover {
+        box-shadow: 0 0 25px 0 #3a1e5c;
+      }
+    }
+
+    &-img {
+      height: 100px;
+      width: 100px;
+    }
+    &-text {
+      margin-top: 18px;
+      font-family: "Cera Pro", sans-serif;
+    }
+  }
+}

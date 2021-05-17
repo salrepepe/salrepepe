@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SALREPEPE</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav d-flex">
+            <a href="#aboutMe" class="nav-item">Обо мне</a>
+            <a href="#portfolio" class="nav-item">Портфолио</a>
+            <a href="#footer" class="nav-item">Контакты</a>
+          <a href="https://github.com/salrepepe" target="_blank" class="nav-git"><i class="fab fa-github"></i></a>
+        </nav>
+      <div class="burger">
+        <div class="burger__line"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="home">
+        <div class="container">
+          <div class="main">
+            <h4 class="home__subtitle">Привет.</h4>
+            <h1 class="home__subtitle">Меня зовут Мухаммед-Саид</h1>
+            <h4 class="home__title">Я Фронтенд разработчик</h4>
+          </div>
+          <a href="#aboutMe" class="home__link"><i class="fas fa-long-arrow-alt-down home__link-arrow"></i></a>
+        </div>
+      </section>
+      <section class="aboutMe" id="aboutMe">
+        <div class="container d-flex">
+          <div class="block">
+            <h2 class="aboutMe__title">Обо мне</h2>
+            <h4 class="aboutMe__descr">Меня зовут Мухаммед-Саид, мне 16 лет. Нравится создавать крутые сайты и приложения, еще люблю путешествовать. . .</h4>
+            <h4 class="aboutMe__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nesciunt! Veritatis quae, non molestiae ratione, ad libero neque rerum tenetur beatae laudantium, totam temporibus nihil sit corrupti voluptate magni esse.</h4>
+         </div>
+         <div class="block">
+           <img src="./src/img/aboutMe/me1.jpg" class='aboutMe__img' alt="It's me :D">
+           <img src="./src//img/aboutMe/me.jpeg" class='aboutMe__img' alt="that's too me :)">
+           <img src="./src//img/aboutMe/me5.jpg" class='aboutMe__img' alt="and again, i'm here:)">
+         </div>
+        </div>
+      </section>
+      <section class="work" id="work">
+        <div class="container">
+          <h2 class="work__title">Что я обычно использую в работе</h2>
+          <div class="row justify-content-center">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 wrapper hover-zoom">
+                <img src="./src/img/work/html.svg" class='wrapper-img' alt="HTML">
+                <p class="wrapper-text">HTML</p>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 wrapper hover-zoom">
+                <img src="./src/img/work/css3.svg" class='wrapper-img' alt="CSS">
+                <p class="wrapper-text">CSS</p>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 wrapper hover-zoom">
+                <img src="./src/img/work/javascript.svg" class='wrapper-img' alt="JS">
+                <p class="wrapper-text"> JavaScript</p>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 wrapper hover-zoom">
+                <img src="./src/img/work/jquery.svg" class='wrapper-img' alt="jQerry">
+                <p class="wrapper-text">jQerry</p>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 wrapper hover-zoom">
+                <img src="./src/img/work/react.svg" class='wrapper-img' alt="React">
+                 <p class="wrapper-text">React</p>
+            </div>
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 wrapper hover-zoom">
+                <img src="./src/img/work/redux.svg" class='wrapper-img' alt="Redux">
+                 <p class="wrapper-text">Redux</p>
+            </div>
+          </div>
+        </div>
+      </section>
+       <section class="portfolio" id="portfolio">
+         <div class="container">
+           <h2 class="portfolio__title">Портфолио</h2>
+           <div class="main d-flex">
+             <div class="main-block1">        
+               <h3 class="main-title">Мои работы</h3>
+               <a href="#main"><i class="fa fa-arrow-right arrow-right" aria-hidden="true"></i></a>
+              </div>
+              <a href="https://salrepepe.github.io/HouseVop" target="_blank" class="main-block-link">
+                <div class="main-block" id="main">
+                  <img src="./src/img/portfolio/first.png" class="main-block-img" alt="HouseVop">
+                  <p class="main-block-title">HouseVop</p>
+                </div>
+              </a>
+              <a href="https://salrepepe.github.io/IT-studio/" class="main-block-link" target="_blank">
+                <div class="main-block">
+                  <img src="./src/img/portfolio/second.png" class="main-block-img" alt="it-studio">
+                  <p class="main-block-title">IT-STUDIO</p>
+                </div>
+              </a>
+              <a href="https://salrepepe.github.io/RunSmart/" target="_blank">
+                <div class="main-block">
+                  <img src="./src/img/portfolio/four.png" class="main-block-img" alt="RunSmart">
+                  <p class="main-block-title">RunSmart</p>
+                </div>
+              </a>
+              <a href="https://app-tod1.herokuapp.com/" target="_blank">
+                <div class="main-block">
+                  <img src="./src/img/portfolio/todow.png" class="main-block-img" alt="RunSmart">
+                  <p class="main-block-title">ToDo App</p>
+                </div>
+              </a>
+            </div>
+            <div class="portfolio__line"></div>
+          </div>
+            </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="container d-flex justify-content-center flex-column"> 
+        <div class="row">
+          <a href="https://www.instagram.com/salrepepe/" target="_blank" class="col"><i class="fab fa-instagram"></i></a>
+          <a href="https://t.me/salrepepe" target="_blank"class="col"><i class="fab fa-telegram-plane"></i></a>
+          <a href="http://linkedin.com/in/mukhammed-said-kuturov-82b19a20b" class="col" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="row"><h4 class="footer__descr">designed by me, esli cho</h4></div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/01750ca1aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>

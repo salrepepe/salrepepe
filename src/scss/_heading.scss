@@ -1,0 +1,6 @@
+@mixin heading ($fz, $mrl){
+    font-family: "Montserrat", sans-serif;
+    font-size: $fz;
+    color: #4985ff;
+    margin: $mrl;
+}
